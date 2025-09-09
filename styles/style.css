@@ -5,6 +5,11 @@
   line-height: 1.5;
 }
 
+p {
+  font-weight: 400;
+  color: #a4a4a4;
+}
+
 .browser {
   display: flex;
   padding: 3% 10%;
@@ -57,7 +62,7 @@ header {
   display: flex;
   flex-direction: column;
   gap: 55px;
-  padding: 5%;
+  padding: 0 5%;
   max-width: 900px;
 }
 
@@ -67,7 +72,11 @@ header {
   gap: 20px;
 }
 
-.header-paragraph-2 {
+.header-paragraph-1 p {
+  color: white;
+}
+
+.header-paragraph-2 p {
   color: #a0a0a0;
 }
 
@@ -85,8 +94,8 @@ header {
   padding: 15px 50px;
   box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.6),
     0 6px 10px rgba(0, 0, 0, 0.3);
-    align-items: center;
-    justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .header-button-blue a {
@@ -105,4 +114,134 @@ header {
   height: 1px;
   width: 100%;
   background-color: white;
+}
+
+.section-sponsors {
+  display: flex;
+  padding: 1% 10%;
+  justify-content: space-between;
+  background: #ebebeb;
+}
+
+.section-services-cards {
+  padding: 10% 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.service-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 325px;
+  gap: 25px;
+}
+
+.service-card-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.service-card-text-title {
+  color: #8395a2;
+  text-align: center;
+}
+
+.service-card-text-paragraph {
+  text-align: center;
+}
+
+.service-card-button-blue {
+  background: linear-gradient(#429dd5, #378acd);
+  border-radius: 10px;
+  padding: 15px 50px;
+  box-shadow: inset 0 3px 3px rgba(255, 255, 255, 0.6);
+  /* 0 6px 10px rgba(0, 0, 0, 0.3); */
+  align-items: center;
+}
+
+.service-card-button-blue a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.section-projects {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10%;
+  gap: 25px;
+  margin-bottom: 10%;
+}
+
+.section-projects-text {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.section-projects-text h3 {
+  font-weight: 400;
+  color: #8395a2;
+}
+
+.section-projects-img {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-projects-img img {
+  width: 300px;
+}
+
+.section-updates {
+  padding: 0 10%;
+  display: flex;
+  gap: 10%;
+}
+.update-blog-text,
+.twitter-feed-text {
+  display: flex;
+  gap: 15px;
+}
+
+.blog {
+  display: flex;
+  gap: 40px;
+}
+
+.blog-image img {
+  width: 140px;
+  border: white 5px solid;
+  box-shadow: 0.4px 0.4px 4px 0.4px rgba(54, 54, 54, 0.3);
+}
+.section-updates-blog-left,
+.section-twitter-feed-right,
+.tweets {
+  display: flex;
+  gap: 35px;
+  flex-direction: column;
+}
+
+.section-updates h3 {
+  font-weight: 400;
+  color: #8395a2;
+}
+
+.blog-text h4,
+.tweet strong {
+  color: #515151;
+  font-weight: 500;
+}
+
+.blog-text a, .tweet a {
+  text-decoration: none;
+  color: #00aced;
+}
+
+.blog-text small, .tweet small{
+  color: #BCBCBC;
 }
