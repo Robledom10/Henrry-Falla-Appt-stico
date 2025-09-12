@@ -199,6 +199,7 @@ header {
 
 .section-updates {
   padding: 0 10%;
+  padding-bottom: 10%;
   display: flex;
   gap: 10%;
 }
@@ -237,11 +238,116 @@ header {
   font-weight: 500;
 }
 
-.blog-text a, .tweet a {
+.blog-text a,
+.tweet a,
+.updates-link a {
   text-decoration: none;
   color: #00aced;
 }
 
-.blog-text small, .tweet small{
-  color: #BCBCBC;
+.blog-text small,
+.tweet small {
+  color: #bcbcbc;
 }
+
+footer {
+  padding: 0 10%;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: space-between;
+  border-top: #bcbcbc 1px solid;
+  padding-bottom: 4%;
+  padding-top: 2%;
+}
+
+h6 {
+  color: #a4a4a4;
+}
+
+@media (max-width: 1280px) {
+
+  .header-title {
+    font-size: 1.6rem;
+  }
+
+  .header-right {
+    gap: 35px;
+  }
+
+}
+
+@media (max-width: 922px) {
+    header {
+    flex-direction: column-reverse;
+  }
+
+  .header-right, .header-text {
+    align-items: center;
+    text-align: center;
+  }
+
+  .header-right {
+    padding-bottom: 35px;
+  }
+
+  .section-projects-img {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 770px) {
+
+  p {
+    font-size: 0.99rem;
+  }
+  .service-card {
+    max-width: 195px;
+  }
+
+  .service-card-text-title {
+    font-size: 0.8rem;
+  }
+
+  .blog {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 769px) {
+ .browser {
+  flex-direction: column;
+ }
+
+ .header-button-blue {
+  margin: auto;
+  padding: 15px 32%;
+  align-items: center;
+ }
+
+ .header-paragraph-3 {
+  display: block;
+  flex-basis: 100%;
+ }
+
+ .header-button-1 {
+  margin: auto;
+ }
+
+ .section-sponsors .sponsor {
+  width: 45px;
+ }
+
+ .section-sponsors{
+  padding: 2% 10%;
+ }
+
+ .section-services-cards {
+  flex-direction: column;
+  gap: 50px;
+ }
+}
+
