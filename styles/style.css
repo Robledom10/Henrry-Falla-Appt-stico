@@ -381,5 +381,17 @@ h6 {
   .section-sponsors .sponsor {
     max-width: 35px;
   }
+
+  .section-projects-img {
+    gap: 0;
+  }
+
+  .section-projects-img img {
+    width: 65px; 
+  }
+
+  .blog-image {
+    display: none;
+  }
 }
 
