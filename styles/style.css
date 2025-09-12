@@ -349,5 +349,37 @@ h6 {
   flex-direction: column;
   gap: 50px;
  }
+
+ .section-projects-img {
+  gap: 20px;
+ }
+
+ .section-updates {
+  flex-direction: column;
+  gap: 50px;
+ }
+}
+
+
+@media (max-width: 481px) {
+  .browser ul {
+    gap: 25px;
+  }
+
+  .header-title {
+    font-size: 1.4rem;
+  }
+
+  .header-left img {
+    max-width: 260px;
+  }
+
+  .header-button-blue {
+    padding: 15px 25%;
+  }
+
+  .section-sponsors .sponsor {
+    max-width: 35px;
+  }
 }
 
